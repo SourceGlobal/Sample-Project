@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+       <div>logo</div> 
+
+        <ul> 
+            <li><a class="link" href=" {% url "home" %} ">home</a></li>
+            <li><a class="link" href=" {% url "purpose" %} ">purpose</a></li>
+            <li><a class="link" href=" {% url "contact" %} ">contact</a></li>
+        </ul> 
+    </nav>
+    
+    {% block main%}
+        <h2>Aims and Objectives of my Webpage</h2>
+
+        <p>we are here to bring herbal and traditional medicine to your door stps</p>
+    {% endblock main %}  
+
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+    <img src="{% static "images/Untitled design.png" %}" alt="">
+
+    {% block content %}
+    {% endblock content %}
+
+
+    <footer>
+        foot design &copy; 2025
+    </footer>
+</body>
+</html>
