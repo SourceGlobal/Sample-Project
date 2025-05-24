@@ -10,26 +10,20 @@
 </head>
 <body>
     <nav>
-       <div>logo</div> 
+      <div>Logo</div>
 
         <ul> 
-            <li><a class="link" href=" {% url "home" %} ">home</a></li>
-            <li><a class="link" href=" {% url "purpose" %} ">purpose</a></li>
-            <li><a class="link" href=" {% url "contact" %} ">contact</a></li>
+            <li><a class="anchor" href="/">Home</a></li>
+            <li><a class="anchor" href="/purpose">Purpose</a></li>
+            <li><a class="anchor" href="/contact">Contact</a></li>
+            <li><a class="anchor" href="about">About</a></li>
+            <li><a class="anchor" href="objective">Objective</a></li>
+            <li><a class="anchor" href="background">Background</a></li>
         </ul> 
+       
     </nav>
     
-    {% block main%}
-        <h2>Aims and Objectives of my Webpage</h2>
-
-        <p>we are here to bring herbal and traditional medicine to your door stps</p>
-    {% endblock main %}  
-
-    <p>Lorem ipsum dolor sit amet consectetur.</p>
-    <p>Lorem ipsum dolor sit amet consectetur.</p>
-
-    <img src="{% static "images/Untitled design.png" %}" alt="">
-
+   
     {% block content %}
     {% endblock content %}
 

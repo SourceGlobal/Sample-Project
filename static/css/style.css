@@ -13,22 +13,21 @@ body{
 
 nav{
     display: flex;
-    background-color: antiquewhite;
+    background-color: lch(92.25% 10.61 62.42);
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
-    padding: 20px;
-    font-weight: 900;
+    color: aliceblue;
+    
 }
 
 ul{
     display: flex;
-    gap: 15px;
+    gap: 30px;
     list-style: none;
 }
-.link{
+.anchor{
     text-decoration: none;
 }
 img{
-    width: 500px;
+    width: 200px;
 }
