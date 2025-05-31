@@ -17,11 +17,11 @@ nav{
     align-items: center;
     justify-content: space-between;
     color: aliceblue;
-    border-radius: 50px;
+    border-radius: 40px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 70px;
+    padding: 40px;
     font-size: large;
     
 }
@@ -36,6 +36,6 @@ ul{
 }
 img{
     width: 300px;
-    border-radius: 50px;
-    padding: 50px;
+    border-radius: 20px;
+    padding: 20px;
 }
