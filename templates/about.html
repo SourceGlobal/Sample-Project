@@ -1,12 +1,39 @@
 {% extends "base.html" %}
-
+{% load static %}
 
 {% block content %}
 <br>
-
+<body>
     <center><h1>Welcome to About Source Global</h1></center>
     <br>
     <P>We are committed to make sure that within our first two years in operations, the problem of poor nutrition, unhealthy leaving, poor financial management and increased number of unskilled population.</P>
-    <p>The following are our unique images which show you our activities and operation.</p>
+    <center><h3>The following are our unique images which show you our activities and operation.</h3></center>
     <br>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .body{
+        isplay: flex;
+        justfy-content: center
+        align-items: ceter
+        backgroud-color:
+       
+    }
+    img{
+       width: 300px; 
+       height: 300px;
+       object-fit: cover;
+       
+    }
+</style>
+    <img src="{% static "images/CultureTourism.jpeg" %}" alt="Culture" style=" width:25%">
+    <img src="{% static "images/ExerciseIsKey.jpg" %}" alt="Exercise" style="width:25%">
+    <img src="{% static "images/HealthIsWealth.jpg" %}" alt="Health" style="width:25%"> 
+    <img src="{% static "images/HerbalRemedy.jpg" %}" alt="Herbal" style="width:25%"> 
+    <img src="{% static "images/thumbnail.jpg" %}" alt="thumbnail" style="width:25%"> 
+    <img src="{% static "images/TechTheWay.avif" %}" alt="Tech" style="width:25%"> 
+    <img src="{% static "images/WaterIsLife.jpg" %}" alt="water" style="width:25%"> 
+</body>
 {% endblock content %}

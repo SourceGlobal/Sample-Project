@@ -35,7 +35,15 @@ ul{
     text-decoration: none;
 }
 img{
-    width: 300px;
+    width: 400px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
+    display: flex;
+}
+.div{
+    width: 100px;
+    padding: 50px;
+    display: flex;
+    border: 15px;
+    margin: 20px;
 }
